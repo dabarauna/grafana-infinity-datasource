@@ -1,7 +1,118 @@
-name,age,country,occupation,salary
-Leanne Graham,38,USA,Devops Engineer,3000
-Ervin Howell,27,USA,Software Engineer,2300
-Clementine Bauch,17,Canada,Student,
-Patricia Lebsack,42,UK,Software Engineer,2800
-Leanne Bell,38,USA,Senior Software Engineer,4000
-Chelsey Dietrich,32,USA,Software Engineer,3500
+Fault ID,SN,Service Category,Service Request - Description,Status,TAG,Site,Log & CPD,Engineer responsible from ByteDance (Person ),TPM,Received,Supplier Ticket,Engineer responsible from ByteDance,First Visit - Start,First Visit - End,Person in charge,Partners onsite,Chat Data History,Itens pais,CI,Warranty,Second Visit - Start,Second Visit - End,Third Visit - Start,Third Visit - End
+1819409,24B316141,CPU,Faulty CPU,Done,Support,SP - BRGRU06,,Yew Song Tan,,,SHSJ0002896326,@Yew Song Tan,2024/02/19 08:00,2024/02/20 08:00,Daniel Baraúna,"Inspur team, Duprê SP",Lotus Breakfix for Edge,,,,,,,
+1806995,24A913616,"CPU, Firmware, DIMM",Outdated BIOS and BMC firmware; two memories with issues; one CPU with a problem.,Done,Support,RJ - BRGIG02,,Gustavo Henrique Abreu Guimaraes,,,SHSJ0002897590,@Gustavo Henrique Abreu Guimaraes,2024/02/29 09:00,2024/02/29 14:00,Daniel Baraúna,Inspur team,巴西机器24A913616，29号上门,,,,,,,
+N/A,J30ACET5 ,"CPU, Disk",1 Disk replacement of nvme2n1 and CPU0.,Done,Support,Milan - ITMXP01,J30ACET5.txt,Zayden Rahman,,,,@Zayden Rahman,2024/05/10 08:00,2024/05/10 13:30,Vinícius Rigueira Da Costa,Reboot Monkeys,,,,Out,,,,
+N/A,J900H2CD ,Cabling,AOC replacement is needed.,Done,Support,Frankfurt - DEFRA04,J900H2CD.txt,Zayden Rahman,,,N/A,@Zayden Rahman,2024/03/06 07:00,2024/03/06 11:00,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+N/A,J30ACET3 ,Disk,"1 Disk replacement of nvme2n1 is needed. 
+- Needs further trouble shooting  | monitor is approved so it can be used for troubleshooting.",Done,Support,Milan - ITMXP01,J30ACET3.txt,Zayden Rahman,,,,@Zayden Rahman,2024/05/10 08:00,2024/05/10 13:30,Vinícius Rigueira Da Costa,Reboot Monkeys,,,,Out,,,,
+N/A,J900XF8Y ,CPU,Currently unreachable. Monitoring equipment is required for troubleshooting.,Done,Support,Dusseldorf - DEDUS01,"SELLog (1).csv,dump_J900XF8Y_20240319-1229.tar.gz",Gustavo Henrique Abreu Guimaraes,,,10000037097; 1000037098,@Gustavo Henrique Abreu Guimaraes,2024/03/19 08:00,2024/05/19 12:00,Daniel Baraúna,Leopold,,,,,,,,
+1815787,24B726529,Motherboard,Motherboard fail/ Can't login into BMC management interface.,Done,Support,Bogotá - COBOG01,"blackbox-24B726529.log,24B726529.txt",Zayden Rahman,,,SHSJ0002918487,@Zayden Rahman,2024/05/18 08:00,2024/05/18 17:00,Daniel Baraúna,Inspur team,,,,,,,,
+1819409,24B316141,Motherboard,Motherboard Failed,Done,Support,SP - BRGRU06,,Yew Song Tan,,,SHSJ0002919429,@Yew Song Tan,,,Daniel Baraúna,Inspur team,,1819409,,,,,,
+N/A,N/A,"CPU, DIMM",Testing two servers that had their parts replaced but the problem had not been resolved. One server had a PSU problem and one had a memory problem.,Done,Support,Milan - ITMXP02,Report support activity - ITMXP02.docx,Gustavo Henrique Abreu Guimaraes,,,,@Gustavo Henrique Abreu Guimaraes,2024/03/14 09:00,2024/03/21 14:14,Vinícius Rigueira Da Costa,Reboot Monkeys,Lotus Breakfix for Edge,,,,,,,
+N/A,600126323,Disk,"Please remove all the hdd/nvme from the out of warranty ewr1 server SN 600126323 and place it in the lockbox.
+
+ Note: Please take photos of the disks, displaying the SN details, which can be readable.",Done,AD Hoc,Newarc - EWR01,Deployment Statement of Work (SOW).docx,Gustavo Henrique Abreu Guimaraes,,,N/A,@Gustavo Henrique Abreu Guimaraes,2024/03/25 15:00,2024/03/25 17:00,Daniel Baraúna,UPPER,,,,,,,,
+1818084,MN6C33AK018,CPU,"Points to CPU0, needs replacement and repaste of thermal paste",Done,Support,Montreal - CAYUL01,"ipmitool sel lis - MN6C33AK018.txt,MN6C33AK018.txt",Zayden Rahman,,,,@Zayden Rahman,2024/05/27 14:00,2024/05/27 17:00,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1803491,J30ACERW,Disk,1 Disk critical.,Done,Support,Milan - ITMXP01,"img_v3_029r_52d7dfb8-6940-4c2f-98ce-e7c66e22b4hu.jpg,img_v3_029r_205c719a-34b5-4998-88ea-6f09a1a2e0hu.jpg,dump_J30ACERW_20240409-0352.tar.gz",Yew Song Tan,,,,@Thiru Masana,2024/05/10 08:00,2024/05/10 13:30,Daniel Baraúna,Reboot Monkeys,,,,Out,,,,
+1819409,24B316141,Firmware,"Server BMC unreachable, suspect nic card issue. Please send engineer with nic card onsite to further troubleshoot. previously before replacing motherboard, bmc was working.eth0",Done,Support,SP - BRGRU06,,Yew Song Tan,,,SHSJ0002919429,@Yew Song Tan,2024/03/25 08:00,,Daniel Baraúna,Inspur team,,1819409,,,,,,
+1725948,J30ACETL,Disk,"2 Disks: Lost (Unrecognized)
+",Done,Support,Milan - ITMXP01,服务器报修-Lenovo-ITMIMXP_AV17_BP17-02-02【10.62.61.216】.eml,Yew Song Tan,,,,Martin Joseph Guinto,2024/05/10 08:00,2024/05/10 13:30,Daniel Baraúna,Reboot Monkeys,,,,Out,,,,
+1806995,24A913616,Motherboard,Motherboard intermittent failure,Done,Support,RJ - BRGIG02,,Gustavo Henrique Abreu Guimaraes,,,SHSJ0002897590,@Gustavo Henrique Abreu Guimaraes,,,Daniel Baraúna,Inspur team,,1806995,,,,,,
+1843781,J900ECL9,CPU,"Rotate the CPUs between sockets and see if the error follows the CPU. While rotating the CPUs between the sockets, please ensure to visually inspect the sockets for any bent pins/debris. If the error follows the CPU, replace it; if not, replace motherboard",Done,Support,Paris - FRCDG02,"dump_J900ECL9_20240412-1246.tar.gz,SELLog J900ECL9.csv",Gustavo Henrique Abreu Guimaraes,,2024/04/30,,@Gustavo Henrique Abreu Guimaraes,2024/04/19 12:00,2024/04/19 15:30,Daniel Baraúna,"Reboot Monkeys, Remote Hands 24/7",,,,,2024/07/10 11:00,2024/07/10 15:30,2024/07/25 08:00,2024/07/25 13:30
+1755345,J900P1LF,FAN,"FAN2, 4, 5",Done,Support,Frankfurt - DEFRA04,"dump_J900P1LF_20240417-0233.tar.gz,Fwd 服务器报修-Lenovo-DEFRA04_FR6_202056-01-14【10.62.227.216】.eml",Gustavo Henrique Abreu Guimaraes,,,,Martin Joseph Guinto,2024/04/26 11:30,2024/04/26 14:00,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+N/A,821060097 ,"Disk, BMC Config","Boot drive is bad and needs to be replaced, and no access to BMC.
+
+        /dev/nvme0n1 SN:        PHLJ112600854P0DGN PN:        SSDPE2KX040T8",Done,Support,SP - BRGRU06,,Zayden Rahman,,,SHSJ0002935286,@Zayden Rahman,2024/04/23 10:00,2024/04/23 16:30,Daniel Baraúna,Inspur team,,,,,,,,
+N/A,SHBE3398826 / SHBE339881S,Collection RMA,Schedule a tech visit to collect defective parts on site IDC ITMXP02,Done,Support,Milan - ITMXP02,image.png,Gustavo Henrique Abreu Guimaraes,,,,@Gustavo Henrique Abreu Guimaraes,2024/05/13 10:00,2024/05/13 12:00,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1847205,24B726520,Disk,Disk: Unconfigured(bad),Done,Support,Bogotá - COBOG01,服务器报修-Inspur-COBOG01_BG2_0201G130-01-02【10.62.242.28】.eml,Yew Song Tan,,2024/04/16,,@Yew Song Tan,,,Daniel Baraúna,SmartCo,,,,,,,,
+"1798548
+1746112
+1739270
+1738079",J30ACET9,Disk,J30ACET9 - 1 Disk - 7.68TB - /dev/nvme2 Slot: 0000:4d:00.0,Done,Support,Milan - ITMXP01,,Gustavo Henrique Abreu Guimaraes,,,,Gustavo Abreu,2024/05/10 08:00,2024/05/10 13:30,Daniel Baraúna,Reboot Monkeys,,,,Out,,,,
+"1798548
+1746112
+1739270
+1738079",J30ACETF,Disk,J30ACETF - 1 Disk - 7.68TB - /dev/nvme4 Slot 0000:98:00.0,Done,AD Hoc,Milan - ITMXP01,,Gustavo Henrique Abreu Guimaraes,,,,Gustavo Abreu,2024/05/10 08:00,2024/05/10 13:30,Daniel Baraúna,Reboot Monkeys,,"1798548
+1746112
+1739270
+1738079",,Out,,,,
+"1798548
+1746112
+1739270
+1738079",J30ACERY,Disk,J30ACERY - 2 Disks - 7.68TB - /dev/nvme2 Slot: 0000:4d:00.0 - /dev/nvme3 Slot: 0000:4e:00.0,Done,AD Hoc,Milan - ITMXP01,,Gustavo Henrique Abreu Guimaraes,,,,Gustavo Abreu,2024/05/10 08:00,2024/05/10 13:30,Daniel Baraúna,Reboot Monkeys,,"1798548
+1746112
+1739270
+1738079",,Out,,,,
+"1798548
+1746112
+1739270
+1738079",J30ACERV,Disk,J30ACERV - 2 Disks - 7.68TB - /dev/nvme1n1 Slot: 0000:4c:00.0 - /dev/nvme4n1 Slot: 0000:99:00.0 ,Done,AD Hoc,Milan - ITMXP01,,Gustavo Henrique Abreu Guimaraes,,,,Gustavo Abreu,2024/05/10 08:00,2024/05/10 13:30,Daniel Baraúna,Reboot Monkeys,,"1798548
+1746112
+1739270
+1738079",,Out,,,,
+1844269,J900FN05,DIMM,Memory Device Disabled - SensorName:P1_C0_D0_Status;Status:0x1080,Done,Support,London - GBLHR04,回复：服务器报修-Lenovo-GBLHR04_D1_L701-02-02【10.62.188.213】.eml,Jeremy Quek,,,,Jeremy Quek,2024/05/09 06:30,2024/05/09 08:30,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1830196,MN6C33AK002,CPU,Processor CPU1_Status | Configuration Error ,Done,Support,Montreal - CAYUL01,服务器报修-Inventec-CAYUL01_MTL7_440515-A-C001【10.7.152.26】.pdf,Yew Song Tan,,,,Yew Song tan,2024/05/27 14:00,2024/05/27 17:30,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1853818,24B316113,"Cabling, Switch Config","Server is down, both bmc and os is down, suspect server not powered up due to faulty hardware",Done,Support,SP - BRGRU06,服务器报修-Inspur-BRGRU06_EQSP4_01-418310-01-02【10.62.178.13】.eml,Jeremy Quek,,,,Jeremy Quek,,,Daniel Baraúna,Inspur team,,,,,,,,
+1852553,J900P6WW,Motherboard,Motherboard Failed,Done,Support,Frankfurt - DEFRA04,,Gustavo Henrique Abreu Guimaraes,,,,Yongnan Ma,2024/05/17 12:00,2024/05/17 16:30,Vinícius Rigueira Da Costa,Reboot Monkeys,,,,In,,,,
+1849738,J900H2CC,Disk,Disk / OS Disk: Fault / NVME0 wasn't detected.,Done,Support,Frankfurt - DEFRA04,,Gustavo Henrique Abreu Guimaraes,,,,@Gustavo Henrique Abreu Guimaraes,2024/05/17 11:00,2024/05/17 12:00,Vinícius Rigueira Da Costa,Reboot Monkeys,,,,In,,,,
+1846031,J30ACETH,Disk,nvme1n1,Done,Support,Milan - ITMXP01,,Yong Seng Chua,,,,yongseng.chua,2024/06/11 09:00,2024/06/11 12:00,Daniel Baraúna,Reboot Monkeys,,,,Out,,,,
+1838800,J30ACETN,Disk,nvme7n1,Done,Support,Milan - ITMXP01,,Zayden Rahman,,,,zayden.rahman,2024/06/11 09:00,2024/06/11 12:00,Daniel Baraúna,Reboot Monkeys,,,,Out,,,,
+1837289,J30ACET6,Disk,nvme6n1,Done,Support,Milan - ITMXP01,,Zayden Rahman,,,,zayden.rahman,2024/06/11 09:00,2024/06/11 12:00,Daniel Baraúna,Reboot Monkeys,,,,Out,,,,
+1860186,24C128748,Disk,Several disks are missed,Done,Support,SP - BRGRU07,SELLog (2).csv,Gustavo Henrique Abreu Guimaraes,,,,Rhine Corpuz / Gustavo Abreu,2024/05/24 11:30,2024/05/24 13:00,"Vinícius Rigueira Da Costa,Daniel Baraúna",Inspur team,,,,,,,,
+1849971,J900EADC,DIMM,"Uncorrectable ECC other uncorrectable memory error
+",Done,Support,Paris - FRCDG02,,Zayden Rahman,,2024/05/15,,,2024/06/21 08:00,2024/06/21 15:30,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1834972,600126279,Disk,Bad OS disk - Not detected,Done,Support,Seattle - USSEA02,,Zayden Rahman,,,,,,,Daniel Baraúna,,,,,,,,,
+1841809,J30A3ZNZ,Disk,NVME: Lost (in System lost but in lspci exist),Done,Support,Spain -  ESMAD02,,Zayden Rahman,,2024/05/16,,,2024/06/12 14:30,2024/06/12 16:30,Daniel Baraúna,Reboot Monkeys,,,,Out,2024/06/14 14:30,2024/06/14 15:30,,
+1866862,J900EADA,PSU,"PSU not detect, server is unreachable.",Done,Support,Paris - FRCDG02,,Gustavo Henrique Abreu Guimaraes,,2024/05/29,,,2024/06/21 08:00,2024/06/21 15:30,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1870420,MN6C33AK01C,Motherboard,Motherboard Failed,Done,Support,Montreal - CAYUL01,,Yew Song Tan,,2024/06/03,,,2024/08/05 11:30,2024/08/05 18:00,Vinícius Rigueira Da Costa,Reboot Monkeys,,,,,,,,
+1880961 ,24A913613 ,Disk,NVME: Critical Warning value is other. 0000:99:00.0 /dev/nvme5n1,Done,Support,RJ - BRGIG02,,Gustavo Henrique Abreu Guimaraes,,2024/06/12,,,,,Daniel Baraúna,Inspur team,,,,,,,,
+1882914,820617078,DIMM,"BATCH ISSUE - We need all DIMMs with PN HMA84GR7CJR4N-WM Batch 2026 to 2034 with new modules. These servers have been identified to have affected modules, 8 32GB modules per server.",Cancelled,Support,Seattle - USSEA02,,William Perkins,,2024/06/13,,,,,Vinícius Rigueira Da Costa,,,,,,,,,
+1882913,820617076,DIMM,"BATCH ISSUE - We need all DIMMs with PN HMA84GR7CJR4N-WM Batch 2026 to 2034 with new modules. These servers have been identified to have affected modules, 8 32GB modules per server.",Cancelled,Support,Seattle - USSEA02,,William Perkins,,2024/06/13,,,,,Vinícius Rigueira Da Costa,,,,,,,,,
+1882912,820617077,DIMM,"BATCH ISSUE - We need all DIMMs with PN HMA84GR7CJR4N-WM Batch 2026 to 2034 with new modules. These servers have been identified to have affected modules, 8 32GB modules per server.",Cancelled,Support,Seattle - USSEA02,,William Perkins,,2024/06/13,,,,,Vinícius Rigueira Da Costa,,,,,,,,,
+1882904,820617071,DIMM,"BATCH ISSUE - We need all DIMMs with PN HMA84GR7CJR4N-WM Batch 2026 to 2034 with new modules. These servers have been identified to have affected modules, 8 32GB modules per server.",Cancelled,Support,Seattle - USSEA02,,William Perkins,,2024/06/13,,,,,Vinícius Rigueira Da Costa,,,,,,,,,
+1882903,820617073,DIMM,"BATCH ISSUE - We need all DIMMs with PN HMA84GR7CJR4N-WM Batch 2026 to 2034 with new modules. These servers have been identified to have affected modules, 8 32GB modules per server.",Cancelled,Support,Seattle - USSEA02,,William Perkins,,2024/06/13,,,,,Vinícius Rigueira Da Costa,,,,,,,,,
+1882902,820617075,DIMM,"BATCH ISSUE - We need all DIMMs with PN HMA84GR7CJR4N-WM Batch 2026 to 2034 with new modules. These servers have been identified to have affected modules, 8 32GB modules per server.",Cancelled,Support,Seattle - USSEA02,,William Perkins,,2024/06/13,,,,,Vinícius Rigueira Da Costa,,,,,,,,,
+1882900,820617074,DIMM,"BATCH ISSUE - We need all DIMMs with PN HMA84GR7CJR4N-WM Batch 2026 to 2034 with new modules. These servers have been identified to have affected modules, 8 32GB modules per server.",Cancelled,Support,Seattle - USSEA02,,William Perkins,,2024/06/13,,,,,Vinícius Rigueira Da Costa,,,,,,,,,
+1882899,820617072,DIMM,"BATCH ISSUE - We need all DIMMs with PN HMA84GR7CJR4N-WM Batch 2026 to 2034 with new modules. These servers have been identified to have affected modules, 8 32GB modules per server.",Cancelled,Support,Seattle - USSEA02,,William Perkins,,2024/06/13,,,,,Vinícius Rigueira Da Costa,,,,,,,,,
+1854149,J900H41M,PSU,"Repair directly (Shutdown, disconnect cable, etc), notify the reporter after repair. (Keep server alive when relplacing PSU)",Done,Support,Frankfurt - DEFRA04,,Gustavo Henrique Abreu Guimaraes,,2024/06/09,,,2024/07/10 07:58,2024/07/10 10:13,Daniel Baraúna,Remote Hands 24/7,,,,,,,,
+1818084,MN6C33AK018,Motherboard,Motherboard replacement,Done,Support,Montreal - CAYUL01,,Zayden Rahman,,2024/06/15,,,2024/06/11 17:30,2024/06/11 18:30,"Vinícius Rigueira Da Costa,Daniel Baraúna",Reboot Monkeys,,,,In,2024/07/18 16:00,2024/07/18 20:30,2024/07/29 11:30,2024/07/29 13:30
+1885456,J900PG1P,Motherboard,Engineer report: When we arrived at rack 0202 we noticed that the device on RU2/3 was powered off completely. We tried to Power it on with the Power button but this did not work the device remained off. After this we pulled the PSU out of the device and waited a couple off minutes. Sadly this did not do anything we were unable to power the server on.,Done,Support,Amsterdam - NLAMS02,,Gustavo Henrique Abreu Guimaraes,,2024/06/20,,,2024/07/11 07:50,2024/07/11 13:30,Daniel Baraúna,Remote Hands 24/7,,,,,,,,
+1841809,J30A3ZNZ,Disk,Disk not detected,Done,Support,Spain -  ESMAD02,,Zayden Rahman,,2024/06/17,,,2024/07/05 14:30,2024/07/05 15:30,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1876996,SH8G337Z801,DIMM,"Error Size: 16384 MB, Right Size: 32 GB, need to replace memory",Delivery Pending,Support,Spain -  ESMAD02,,Rhine Corpuz,,2024/07/09,,,2024/09/24 15:00,,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1882025,24C128678,Disk,NVME: Lost (in System lost but in lspci exist),Done,Support,SP - BRGRU07,,Thiru Masana,,2024/07/17,,,,,Vinícius Rigueira Da Costa,Inspur team,,,,,,,,
+1904923,CN4346P48K,Motherboard,Motherboard issue as server cannot powerup due to power fault.,Done,Support,Japan - JPNRT04,,Yew Song Tan,,2024/07/18,,,2024/08/21 20:00,2024/08/22 03:00,Daniel Baraúna,EASTASIAN,,,,,,,,
+1902696,MN6C33AK013,PSU,SensorName:PSU0_Supply;Status:0x0d80; HourCount: (6) >= 6,Done,Support,Montreal - CAYUL01,,Zayden Rahman,,2024/07/19,,,2024/07/29 11:30,2024/07/29 13:30,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1903516,MN6B33AK009,PSU,SensorName:PSU0_Supply;Status:0x0d80; HourCount: (6) >= 6,Done,Support,Montreal - CAYUL01,,Zayden Rahman,,2024/07/19,,,2024/07/29 13:24,2024/07/29 13:30,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1899129,24C128773,FAN,"Speed:0.000,SensorStatus:cr; HourCount: (24) >= 6",Done,Support,SP - BRGRU07,,Jeremy Quek,,2024/07/23,,,,,Daniel Baraúna,Inspur team,,,,,,,,
+1864100,SHM6342N80S,PSU,Power Supply Failure detected,Done,AD Hoc,Bulgaria - BGSOF01,,Gustavo Henrique Abreu Guimaraes,,2024/07/26,,,2024/08/02 05:09,2024/08/02 07:06,Daniel Baraúna,Remote Hands 24/7,,,,,,,,
+1913370,J900ECLC ,PSU,SensorName:PSU0_Supply;Status:0x0d80; HourCount: (6) >= 6,Done,Support,Paris - FRCDG02,,Rhine Corpuz,,2024/08/01,,,,,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1818084 ,MN6C33AK018,DIMM," Memory; Multiple memories are lost; please arrange for dimms; replacement.",Done,Support,Montreal - CAYUL01,,Jeremy Quek,,2024/08/05,,,2024/09/23 18:30,2024/09/23 21:00,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1917845,J900EAD0,DIMM,Memory        Memory Device Disabled        SensorName:P1_C3_D0_Status;Status:0x1080 PN:M393A4K40EB3-CWE-,Done,Support,Paris - FRCDG02,,Gustavo Henrique Abreu Guimaraes,,2024/08/06,,,2024/08/22 12:00,2024/08/22 15:00,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1906903,J30ACETE,Disk,Disk: Lost (Unrecognized),Done,Support,Milan - ITMXP01,,Rhine Corpuz,,2024/08/07,,,,,Daniel Baraúna,Reboot Monkeys,,,,Out,,,,
+1919475,J900ECL4,CPU,SensorName:CPU1_Status;Status:0x8088,Done,Support,Paris - FRCDG02,,Rhine Corpuz,,2024/08/07,,,2024/09/11 08:40,2024/09/11 10:18,Daniel Baraúna,Reboot Monkeys,,,,,,,,
+1904766,MXX3150204,Disk,NVME: Lost (in System lost but in lspci exist),Cancelled,Support,Seattle - USSEA02,,William Perkins,,2024/08/12,,,,,Eduardo de Brito Lucas,,,,,,,,,
+1870420,MN6C33AK01C,DIMM,DIMM failed,Done,Support,Montreal - CAYUL01,,Yew Song Tan,,2024/08/13,,,2024/09/23 16:00,2024/09/23 18:30,Vinícius Rigueira Da Costa,Reboot Monkeys,,1870420,,,,,,
+1927805,J30ACETF,Disk,Disk Lost,Done,Support,Milan - ITMXP01,,Rhine Corpuz,,2024/08/20,,,,,Eduardo de Brito Lucas,Reboot Monkeys,,,,,,,,
+1926771,24B915873,Motherboard,Motherboard Failed server unable to power up,Cancelled,Support,Istambul - TRIST03,,Jeremy Quek,,2024/08/21,,,,,Eduardo de Brito Lucas,,,,,,,,,
+1928294,SMG1329800R,Disk,Disk: Lost (Unrecognized),Cancelled,Support,Amsterdam - NLAMS02,,Gustavo Henrique Abreu Guimaraes,,2024/08/21,,,,,Eduardo de Brito Lucas,,,,,,,,,
+1920020,MN6B33AK009,PSU,SensorName:PSU0_Supply;Status:0x0d80; HourCount: (6) >= 6,Done,Support,Montreal - CAYUL01,,Timothy Tuan-Tu Vu,,2024/08/23,,,2024/09/17 17:30,2024/09/17 20:00,Eduardo de Brito Lucas,Reboot Monkeys,,,,,,,,
+1926683,24C128863,Disk,NVME: Lost (in System lost but in lspci exist),Done,Support,SP - BRGRU07,,Thiru Masana,,2024/08/26,,,,,Eduardo de Brito Lucas,Inspur team,,,,,,,,
+1931447,24B316212,NIC,Bus Uncorrectable error,Done,Support,SP - BRGRU06,,Yew Song Tan,,2024/08/27,,,2024/09/06 10:00,2024/09/06 13:00,Eduardo de Brito Lucas,Inspur team,,,,,,,,
+1936483,J900FMZ0,Disk,OS Disk: Fault,Done,Support,London - GBLHR04,,Jeremy Quek,,2024/09/05,,,2024/09/20 09:00,2024/09/20 10:00,Eduardo de Brito Lucas,Reboot Monkeys,,,,,,,,
+1941205,425030909,Disk,NVMe4 is reporting many critical target error,Done,Support,RJ - BRGIG02,,Timothy Tuan-Tu Vu,,2024/09/12,,,2024/09/27 15:00,2024/09/27 16:00,Eduardo de Brito Lucas,Inspur team,,,,,,,,
+1939979,J30ABVVK,Disk,Disk: Lost (Unrecognized),Done,Support,Milan - ITMXP01,,Gustavo Henrique Abreu Guimaraes,,2024/09/13,,,2024/10/03 13:00,2024/10/03 14:10,Eduardo de Brito Lucas,Reboot Monkeys,,,,,,,,
+1940896,J900XFA2,NIC,lspci info: Mellanox Technologies MT28841 (rev ff); HourCount: (4) >= 2,Done,Support,Dusseldorf - DEDUS01,,Gustavo Henrique Abreu Guimaraes,,2024/09/17,,,2024/10/25 05:00,2024/10/25 09:30,Eduardo de Brito Lucas,Remote Hands 24/7,,,,,,,,
+1941558,J900P6XW,DIMM,Uncorrectable ECC other uncorrectable memory error; SensorName:P0_C1_D0_Status;Status:0x0280,Done,Support,Frankfurt - DEFRA04,,Gustavo Henrique Abreu Guimaraes,,2024/09/17,,,2024/09/25 11:30,2024/09/25 16:00,Eduardo de Brito Lucas,Reboot Monkeys,,,,,,,,
+1940746,24C127935,Motherboard,Motherboard Failed; SYS Error IERR FM_CPU_CATERR_DLY_LVT3_PLD_N_Long FM_CPU_CATERR_LVT3_N_Long .,Done,Support,SP - BRGRU07,,Yew Song Tan,,2024/09/17,,,2024/09/24 08:00,2024/09/24 16:00,Vinícius Rigueira Da Costa,Inspur team,,,,,2024/10/08 08:00,2024/10/08 18:00,,
+1942220,J900DMXK,NIC,NIC error(get device info failed); NIC eth0 and eth1 showing errors. 0000:17:00.0 / 0000:17:00.1,Done,Support,Paris - FRCDG02,,Gustavo Henrique Abreu Guimaraes,,2024/09/19,,,2024/10/11 06:00,2024/10/11 07:00,Eduardo de Brito Lucas,Reboot Monkeys,,,,,2024/10/15 09:00,2024/10/15 10:30,,
+1945815 ,24A915184 ,Disk,nvme2n1 io error,Done,Support,RJ - BRGIG03,,Yew Song Tan,,2024/09/25,,,2024/10/04 09:50,2024/10/04 11:05,Eduardo de Brito Lucas,Inspur team,,,,,,,,
+1940746,24C127935,CPU,Suspect cpu0 having error . still showing fault in bmc,Done,Support,SP - BRGRU07,,Yew Song Tan,,2024/10/09,,,,,Daniel Baraúna,Inspur team,,,,,,,,
+1949178,CN4350P8EP,CPU,cpu ierr,On Hold,Support,Japan - JPNRT04,,Yongnan Ma,,2024/10/15,,,,,Daniel Baraúna,,,,,,,,,
+1932456,J900XF8H,"Disk, DIMM",Disk: Fault; Uncorrectable ECC other uncorrectable memory error,Done,Support,Dusseldorf - DEDUS01,,Rhine Corpuz,,2024/10/15,,,2024/10/25 05:00,2024/10/25 09:30,Daniel Baraúna,Remote Hands 24/7,,,,,,,,
+1953828,24C128681,DIMM,SensorName:P1_C1_D0_Status;Status:0x8080,Done,Support,SP - BRGRU07,,Yongnan Ma,,2024/10/17,,,,,Daniel Baraúna,Inspur team,,,,,,,,
+1954310,J900EA28,Motherboard,Motherboard Failed/ ipmitool protocol error,Delivery Pending,Support,Paris - FRCDG02,,Yongnan Ma,,2024/10/21,,,,,Daniel Baraúna,,,,,,,,,
+1953489,J900EA26,Motherboard,Motherboard Failed/ ipmitool protocol error,Delivery Pending,Support,Paris - FRCDG02,,Yongnan Ma,,2024/10/21,,,,,Daniel Baraúna,,,,,,,,,
+1953343,J30ACETD,Disk,Disk: Lost (Unrecognized),Done,Support,Milan - ITMXP01,,Gustavo Henrique Abreu Guimaraes,,2024/10/21,,,2024/10/29 06:30,2024/10/29 08:00,Daniel Baraúna,Remote Hands 24/7,,,,,,,,
+1958533,24B316198,DIMM,EDAC MC2: 9 CE memory read error on CPU_SrcID#1_MC#0_Chan#0_DIMM#0,Delivery Pending,Support,SP - BRGRU06,,Timothy Tuan-Tu Vu,,2024/10/25,,,,,Daniel Baraúna,Inspur team,,,,,,,,
+1940746,24C127935,DIMM,Memory Device Disabled,Requesting part delivery,Support,SP - BRGRU07,,Yew Song Tan,,2024/10/29,,,,,Daniel Baraúna,Inspur team,,,,,,,,
+1960648,J900XFA2,NIC,NIC lspci revision id is ff,Delivery Pending,Support,Dusseldorf - DEDUS01,,Gustavo Henrique Abreu Guimaraes,,2024/10/29,,,,,Daniel Baraúna,,,,,,,,,
